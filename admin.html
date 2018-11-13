@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
+        <meta charset="UTF-8"/>
+        <title>Urbanmood</title>
+        <link rel="icon" href="res/img/icon_small.png"></link>
+        <link type="text/css" rel="stylesheet" href="res/css/fonts.css" />
+        <link type="text/css" rel="stylesheet" href="res/css/grid.css" />
+        <link type="text/css" rel="stylesheet" href="res/css/style.css" />
+        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.theme.default.min.css" />
+        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css" />
+        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" />
+        <link type="text/css" rel="stylesheet" href="res/css/carousel.css" />
+        <link type="text/css" rel="stylesheet" href="res/css/imagehover.css" />
+        <link type="text/css" rel="stylesheet" href="res/css/table.css" />
+        <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" />
+        <link type="text/css" rel="stylesheet" href="res/css/Componentes.css" />
+    </head>
+    <body>
+        
+        <div id="imagen_principal"></div>
+        
+        
+        <div id="header" style="overflow: hidden;">
+            <div class="container" >
+                <div id="logo" onclick="escrolear('#imagen_principal')"></div>
+                <div class="opcionMenu" onclick="escrolear('#contacto')"> CONTACTO </div>
+                <div class="opcionMenu" onclick="escrolear('#actividades')"> ACTIVIDADES </div>
+                <div class="opcionMenu" onclick="escrolear('#horarios')"> HORARIOS </div>
+                <div class="opcionMenu" onclick="escrolear('#promociones')"> PROMOCIONES </div>
+                <div class="opcionMenu" onclick="escrolear('#inicio')"> INICIO </div>
+            </div>
+        </div>
+        
+        <div id="relleno" style="display: none"></div>
+        
+        
+        <div class="col m12 textoCentrado" id="inicio">
+            <h1>Bienvenidos</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col m12 textoCentrado">
+                    <textarea class="materialize-textarea"></textarea>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="col m12 textoCentrado" id="promociones">
+            <h1>Promociones</h1>
+        </div>
+        
+        Agregar (Imagen)
+        
+        Quitar (Imagen)
+        
+        <div class="col m12 textoCentrado" id="horarios">
+            <h1>Horarios</h1>
+        </div>
+        
+        <div class="container" id="tablaHorarios">
+            <table class="horarios">
+                <thead>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="1" class="tableHora">07:30</td>
+                        <td class="tableDato cardiovascular">
+                            <div class="celda"><div class="tituloCeldaTabla">Perdida de peso</div> <div class="horaCeldaTabla"> 7:30 - 8:30 </div> </div> 
+                        </td>
+                        <td class="tableDato ">
+                            <div class="celda"></div> 
+                        </td>
+                        <td class="tableDato actividadFuerza">
+                            <div class="celda"><div class="tituloCeldaTabla">Localizada</div> <div class="horaCeldaTabla"> 7:30 - 8:30 </div> </div> 
+                        </td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                        <td class="tableDato actividadMixta">
+                            <div class="celda"><div class="tituloCeldaTabla">Funcional</div> <div class="horaCeldaTabla"> 7:30 - 8:30 </div></div> 
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td rowspan="1" class="tableHora">07:45</td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                        <td class="tableDato cardiovascular">
+                            <div class="celda"><div class="tituloCeldaTabla">Indoor cycling</div> <div class="horaCeldaTabla"> 7:45 - 8:30 </div></div> 
+                        </td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                        <td class="tableDato cardiovascular">
+                            <div class="celda"><div class="tituloCeldaTabla">Indoor cycling</div> <div class="horaCeldaTabla"> 7:45 - 8:30 </div></div> 
+                        </td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td rowspan="1" class="tableHora">18:30</td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                        <td class="tableDato actividadFuerza">
+                            <div class="celda"><div class="tituloCeldaTabla">Barras</div> <div class="horaCeldaTabla"> 18:30 - 19:30 </div></div> 
+                        </td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                        <td class="tableDato actividadFuerza">
+                            <div class="celda"><div class="tituloCeldaTabla">Barras</div> <div class="horaCeldaTabla"> 18:30 - 19:30 </div></div>
+                        </td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td rowspan="1" class="tableHora">19:00</td>
+                        <td class="tableDato actividadFuerza">
+                            <div class="celda"><div class="tituloCeldaTabla">ABD x30'</div> <div class="horaCeldaTabla"> 19:00 - 19:30 </div></div> 
+                        </td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                        <td class="tableDato actividadFuerza">
+                            <div class="celda"><div class="tituloCeldaTabla">ABD x30'</div> <div class="horaCeldaTabla"> 19:00 - 19:30 </div></div> 
+                        </td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                        <td class="tableDato actividadFuerza">
+                            <div class="celda"><div class="tituloCeldaTabla">ABD x30'</div> <div class="horaCeldaTabla"> 19:00 - 19:30 </div></div> 
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td rowspan="3" class="tableHora">19:30</td>
+                        <td class="tableDato cardiovascular">
+                            <div class="celda"><div class="tituloCeldaTabla">Indoor cycling</div> <div class="horaCeldaTabla"> 19:30 - 20:15 </div></div> 
+                        </td>
+                        <td class="tableDato cardiovascular">
+                            <div class="celda"><div class="tituloCeldaTabla">Zumba</div> <div class="horaCeldaTabla"> 19:30 - 20:15 </div></div> 
+                        </td>
+                        <td class="tableDato cardiovascular">
+                            <div class="celda"><div class="tituloCeldaTabla">Indoor cycling</div> <div class="horaCeldaTabla"> 19:30 - 20:15 </div></div> 
+                        </td>
+                        <td class="tableDato cardiovascular">
+                            <div class="celda"><div class="tituloCeldaTabla">Zumba</div> <div class="horaCeldaTabla"> 19:30 - 20:15 </div></div> 
+                        </td>
+                        <td class="tableDato cardiovascular">
+                            <div class="celda"><div class="tituloCeldaTabla">Indoor cycling</div> <div class="horaCeldaTabla"> 19:30 - 20:15 </div></div> 
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tableDato actividadFuerza">
+                            <div class="celda"><div class="tituloCeldaTabla">Pilates</div> <div class="horaCeldaTabla"> 19:30 - 20:30 </div></div> 
+                        </td>
+                        <td class="tableDato cardiovascular">
+                            <div class="celda"><div class="tituloCeldaTabla">Indoor cycling</div> <div class="horaCeldaTabla"> 19:30 - 20:15 </div></div> 
+                        </td>
+                        <td class="tableDato actividadFuerza">
+                            <div class="celda"><div class="tituloCeldaTabla">Pilates</div> <div class="horaCeldaTabla"> 19:30 - 20:30 </div></div> 
+                        </td>
+                        <td class="tableDato cardiovascular">
+                            <div class="celda"><div class="tituloCeldaTabla">Indoor cycling</div> <div class="horaCeldaTabla"> 19:30 - 20:15 </div></div> 
+                        </td>
+                        <td class="tableDato actividadFuerza">
+                            <div class="celda"><div class="tituloCeldaTabla">Pilates</div> <div class="horaCeldaTabla"> 19:30 - 20:30 </div></div> 
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tableDato actividadMixta">
+                            <div class="celda"><div class="tituloCeldaTabla">Funcional</div> <div class="horaCeldaTabla"> 19:30 - 20:30 </div></div> 
+                        </td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                        <td class="tableDato actividadMixta">
+                            <div class="celda"><div class="tituloCeldaTabla">Funcional</div> <div class="horaCeldaTabla"> 19:30 - 20:30 </div></div> 
+                        </td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td rowspan="1" class="tableHora">20:15</td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                        <td class="tableDato cardiovascular">
+                            <div class="celda"><div class="tituloCeldaTabla">Aerobox</div> <div class="horaCeldaTabla"> 20:15 - 21:15 </div></div> 
+                        </td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                        <td class="tableDato cardiovascular">
+                            <div class="celda"><div class="tituloCeldaTabla">Aerobox</div> <div class="horaCeldaTabla"> 20:15 - 21:15 </div></div> 
+                        </td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td rowspan="1" class="tableHora">20:30</td>
+                        <td class="tableDato actividadMixta">
+                            <div class="celda"><div class="tituloCeldaTabla">Aero-Local</div> <div class="horaCeldaTabla"> 20:30 - 21:30 </div></div> 
+                        </td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                        <td class="tableDato actividadMixta">
+                            <div class="celda"><div class="tituloCeldaTabla">Local-Step</div> <div class="horaCeldaTabla"> 20:30 - 21:30 </div></div> 
+                        </td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td rowspan="1" class="tableHora">21:00</td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                        <td class="tableDato cardiovascular">
+                            <div class="celda"><div class="tituloCeldaTabla">Running team</div> <div class="horaCeldaTabla"> 21:00 - 22:00 </div></div> 
+                        </td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                        <td class="tableDato cardiovascular">
+                            <div class="celda"><div class="tituloCeldaTabla">Running team</div> <div class="horaCeldaTabla"> 21:00 - 22:00 </div></div> 
+                        </td>
+                        <td class="tableDato">
+                            <div class="celda"></div> 
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="col m12 textoCentrado" id="actividades">
+            <h1>Actividades</h1>
+        </div>
+        
+        Agregar (Titulo, descripcion, Imagen)
+        
+        
+        Quitar
+        
+        <div></div>
+        <div class="col m12 textoCentrado" id="contacto">
+            <h1>Contacto</h1>
+        </div>
+        
+        <div class="container">
+            
+            <table>
+                <tr>
+                    <td>
+                        Nombre:  
+                    </td>
+                    <td>
+                        <input class="input-field" type="text" /> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        E-Mail : 
+                    </td>
+                    <td>
+                        <input type="text" /> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Tel / Cel : 
+                    </td>
+                    <td>
+                        <input type="text" /> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mensaje : 
+                    </td>
+                    <td>
+                        <textarea class="materialize-textarea"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <div class="row" style="text-align: center;">
+                <button class="btn waves-effect waves-light" type="submit" name="action" style="background-color: #ff6600">Envar</button>
+            </div>
+        </div>
+        
+        <div id="map" style="width: 100%; height: 300px;"></div>
+        
+        <div style="width: 100%; height: 50px; background-color: rgba(38,38,38,.6);">
+            <div class="container">
+                <div style="float: left; line-height: 50px;"> © Copyright 2017 Urbanmood - Todos Los Derechos Reservados </div>
+                <div style="float: right; line-height: 50px;"> info@urbanmood.com.uy </div>
+            </div>
+        </div>
+        
+        
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="res/js/carousel.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsGzuXM6sB2C0GCsWknn1Pfu7b23YMm8o"></script>
+        <script type="text/javascript" src="res/js/mapa.js"></script>
+        <script type="text/javascript" src="res/js/table.js"></script>
+        <script type="text/javascript" src="res/js/index.js"></script>
+        <script type="text/javascript" src="res/js/facebook.js"></script>
+        <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    </body>
+</html>
+
